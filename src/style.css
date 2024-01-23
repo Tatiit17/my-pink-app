@@ -1,5 +1,5 @@
 body {
-	font-family: "Sevillana", cursive;
+	font-family: "Playfair Display", serif, cursive;
 }
 a {
 	color: #660d5d;
@@ -21,25 +21,28 @@ a {
 }
 .search-input {
 	background-color: #dccdf7;
+	font-family: "Sevillana", cursive;
 	border: none;
 	border-radius: 5px;
 	width: 75%;
 	padding: 15px;
-	font-size: 16px;
+	font-size: 18px;
 	margin-right: 5px;
 }
 .search-button {
 	background-color: #bfabe3;
+	font-family: "Sevillana", cursive;
 	border: none;
 	border-radius: 5px;
 	padding: 15px;
 	width: 20%;
-	font-size: 16px;
+	font-size: 18px;
 	color: #7a9fd2;
 }
 h1 {
 	text-align: center;
 	margin-top: 50px;
+	font-family: "Sevillana", cursive;
 	font-size: 60px;
 	margin-bottom: 20px;
 	color: #e59cca;
@@ -49,7 +52,7 @@ h1 {
 	text-align: center;
 	margin-top: -20px;
 	font-size: 30px;
-	font-family: "Handlee", cursive;
+	font-family: "Playfair Display", serif, cursive;
 	font-weight: 500;
 	color: #660d5d;
 }
@@ -72,6 +75,7 @@ h1 {
 	font-size: 80px;
 	font-weight: 500;
 	margin-left: -10px;
+	font-family: "Sevillana", cursive;
 }
 .weather-app-unit {
 	font-size: 20px;
