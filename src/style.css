@@ -1,0 +1,94 @@
+body {
+	font-family: "Sevillana", cursive;
+}
+a {
+	color: #660d5d;
+}
+.weather-app {
+	background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/834/original/Screenshot_2024-01-23_at_18.37.30.png?1706031511);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+	border-radius: 15px;
+	margin: 45px auto;
+	padding: 30px 30px 10px 30px;
+	max-width: 400px;
+	max-height: 1000px;
+}
+.search-form {
+	display: flex;
+	justify-content: center;
+}
+.search-input {
+	background-color: #dccdf7;
+	border: none;
+	border-radius: 5px;
+	width: 75%;
+	padding: 15px;
+	font-size: 16px;
+	margin-right: 5px;
+}
+.search-button {
+	background-color: #bfabe3;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+	width: 20%;
+	font-size: 16px;
+	color: #7a9fd2;
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #e59cca;
+}
+
+.weather-app-current {
+	text-align: center;
+	margin-top: -20px;
+	font-size: 30px;
+	font-family: "Handlee", cursive;
+	font-weight: 500;
+	color: #660d5d;
+}
+.weather-app-data {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.weather-app-temperature-container {
+	display: flex;
+	margin-left: 10px;
+	justify-content: left;
+	color: #660d5d;
+}
+.weather-app-icon {
+	width: 100px;
+	height: 100px;
+}
+.today-temperature {
+	font-size: 80px;
+	font-weight: 500;
+	margin-left: -10px;
+}
+.weather-app-unit {
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.weather-app-details {
+	margin-right: 10px;
+	font-family: "PT Sans Narrow", san s-serif;
+	font-size: 18px;
+	color: #660d5d;
+}
+
+footer {
+	border-top: 1px solid #8a6789;
+	padding: 5px 0 0 0;
+	text-align: center;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.8);
+}
