@@ -92,14 +92,16 @@ h1 {
 .weather-forecast-date {
 	text-align: center;
 	color: #660d5d;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 20px;
 	margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
-	font-size: 38px;
-	text-align: center;
+	width: 58px;
+	height: 58px;
+	display: block;
+	margin: 0 auto;
 }
 .weather-forecast-temperatures {
 	text-align: center;
